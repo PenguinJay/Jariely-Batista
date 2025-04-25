@@ -28,7 +28,7 @@ section {
     background: var(--section-background);
     border-radius: 8px;
 }
-#Info p {
+Info p {
     text-align: center;
 }
 footer {
