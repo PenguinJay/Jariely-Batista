@@ -1,14 +1,23 @@
+:root {
+    --background-color: #f4f4f4;
+    --header-background: #333;
+    --header-text-color: #fff;
+    --section-background: #fff;
+    --footer-background: #333;
+    --footer-text-color: #fff;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background: #f4f4f4;
+    background: var(--background-color);
 }
 
 header {
-    background: #333;
-    color: #fff;
+    background: var(--header-background);
+    color: var(--header-text-color);
     padding: 20px 0;
     text-align: center;
 }
@@ -16,13 +25,13 @@ header {
 section {
     padding: 20px;
     margin: 20px;
-    background: #fff;
+    background: var(--section-background);
     border-radius: 8px;
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background: #333;
-    color: #fff;
+    background: var(--footer-background);
+    color: var(--footer-text-color);
 }
