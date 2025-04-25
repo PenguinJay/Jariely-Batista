@@ -1,5 +1,5 @@
-: root {
-    --background-color: #pink;
+:root {
+    --background-color: pink;
     --header-background: #333;
     --header-text-color: #fff;
     --section-background: #fff;
@@ -28,9 +28,11 @@ section {
     background: var(--section-background);
     border-radius: 8px;
 }
-Info p {
+
+#Info p {
     text-align: center;
 }
+
 footer {
     text-align: center;
     padding: 10px;
