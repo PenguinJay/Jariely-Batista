@@ -1,9 +1,9 @@
 :root {
     --background-color: pink;
-    --header-background: #333;
+    --header-background: pink;
     --header-text-color: #fff;
-    --section-background: #fff;
-    --footer-background: #333;
+    --section-background: pink;
+    --footer-background: pink;
     --footer-text-color: #fff;
 }
 
