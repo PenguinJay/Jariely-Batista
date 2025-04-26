@@ -1,10 +1,10 @@
 :root {
     --background-color: white;
     --header-background: pink;
-    --header-text-color: #fff;
+    --header-text-color: #black;
     --section-background: white;
     --footer-background: white;
-    --footer-text-color: #fff;
+    --footer-text-color: #black;
 }
 
 body {
