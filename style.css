@@ -1,5 +1,5 @@
 :root {
-    --background-color: pink;
+    --background-color: white;
     --header-background: pink;
     --header-text-color: #fff;
     --section-background: pink;
@@ -36,6 +36,6 @@ section {
 footer {
     text-align: center;
     padding: 10px;
-    background: var(--footer-background);
-    color: var(--footer-text-color);
+    background: var(pink);
+    color: var(white);
 }
