@@ -1,40 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    :root {
+      --main-bg: #fdf6f0;
+      --accent: #ffc7c7;
+      --text-color: #333;
+      --highlight: #b3e5fc;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: var(--main-bg);
+      color: var(--text-color);
+    }
+
+    nav {
+      background-color: var(--highlight);
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: var(--text-color);
+      font-weight: bold;
+    }
+
+    .intro {
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .intro h1 {
+      margin-bottom: 0.5rem;
+    }
+
+    .section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .skills, .portfolio {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .skills div, .portfolio div {
+      background-color: var(--highlight);
+      padding: 1rem;
+      border-radius: 10px;
+    }
+
+    .form-section {
+      background-color: var(--accent);
+      padding: 2rem;
+      border-radius: 10px;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .form-section form {
+      display: grid;
+      gap: 1rem;
+    }
+
+    input, textarea {
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      background-color: var(--highlight);
+      border: none;
+      padding: 0.5rem 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+  </style>
 </head>
 <body>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact Me</a>
+  </nav>
 
-    <header>
-        <h1>Hi, I'm Jariely Batista</h1>
-        <p>Web Developer | Aspiring Data Scientist | Data Analytics  BS Student in Computer Science | Minor in Business</p>
-    </header>
+  <section class="intro" id="home">
+    <h1>Hello<br>I'm [Your Name]</h1>
+    <h2>Software Engineer</h2>
+    <p>If you're on the hunt for IT, you've landed in the right place. I am a passionate software developer weaving intricate code and crafting captivating digital experiences. Explore my portfolio, where IT meets innovation, creativity, and precision.</p>
+    <button>Hire Me</button>
+  </section>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Aspiring Data Scientist with a strong foundation in data analysis, programming, and database management, currently pursuing a Bachelor of Technology (BTECH) in Computer Systems with a concentration in Data Science and a minor in Business at New York City College of Technology. Recognized for academic excellence with a 3.7 GPA and Dean’s List honors. Skilled in Python, SQL, HTML, Oracle, and Microsoft Excel, with hands-on experience in developing data-driven projects and teaching coding and STEM concepts to diverse audiences. As a first-generation American and a member of the Hispanic community, I bring a unique perspective and a commitment to diversity and inclusion in the tech field. Passionate about leveraging data to solve real-world problems and eager to contribute to dynamic teams through internships or entry-level roles in data science or analytics.</p>
-    </section>
+  <section class="section" id="about">
+    <h2>What I Do</h2>
+    <div class="skills">
+      <div><h3>Backend Development</h3><p>Experienced in OOD, TDD, Ruby, Rails, Python, Django, and RESTful API development.</p></div>
+      <div><h3>Frontend Development</h3><p>Proficient in React, JavaScript, HTML5, CSS3, Tailwind CSS, and Responsive Design.</p></div>
+      <div><h3>Database Management</h3><p>Skilled in PostgreSQL, SQL query optimization, data modeling, NoSQL databases (such as MongoDB), and working with ORMs.</p></div>
+    </div>
+  </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li>Project 1 - A fun Python game</li>
-            <li>Project 2 - A weather website with HTML/CSS</li>
-            <li>Project 3 - A simple blog layout</li>
-        </ul>
-    </section>
+  <section class="section" id="portfolio">
+    <h2>My Portfolio</h2>
+    <div class="portfolio">
+      <div><h3>StreetEatz</h3><button>View Project</button></div>
+      <div><h3>Turing Draft Madness</h3><button>View Project</button></div>
+      <div><h3>Fantasy Draft App 2.0</h3><button>View Project</button></div>
+      <div><h3>Portfolio Website</h3><button>View Project</button></div>
+      <div><h3>Portfolio 5 Project</h3><button>Coming Soon</button></div>
+      <div><h3>Portfolio 6 Project</h3><button>Coming Soon</button></div>
+    </div>
+    <p style="text-align:center;"><a href="#">See More</a></p>
+  </section>
 
-    <section id="Info">
-    <h2>My Info:</h2>
-    <p>Click for Resume | Email: jarielybatista@gmail.com | LinkedIn: www.linkedin.com/in/jarielybatista</p>
-</section>
-    
-    <footer>
-        <p>© 2025 Jariely Batista. All rights reserved.</p>
-    </footer>
+  <section class="section" id="resume">
+    <h2>My Resume</h2>
+    <p>[Insert your resume info or link here]</p>
+  </section>
 
+  <section class="form-section" id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name">
+      <input type="email" placeholder="Your Email">
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <p>LinkedIn: [Insert Link]</p>
+  </section>
 </body>
 </html>
