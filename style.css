@@ -8,20 +8,16 @@
     h1, h2, h3 {
       text-align: center;
     }
-  :root {
-  --background-color: #fffafc;         /* Soft Snow */
-  --header-background: #ffd6e0;        /* Dusty Pink */
+ :root {
+  --background-color: #f4f0f8;         /* Lilac Mist */
+  --header-background: #d7a9b5;        /* Mauve Pink */
   --header-text-color: #ffffff;
   --section-background: #ffffff;
-  --accent-color: #54b2a9;             /* Teal Mint */
-  --text-color: #222222;
-  --footer-background: #334e68;        /* Deep Blue-Gray */
+  --accent-color: #a48bcc;             /* Dusty Purple */
+  --text-color: #2a2a2a;
+  --footer-background: #3e3e3e;        /* Graphite Gray */
   --footer-text-color: #ffffff;
 }
-
-
-
-
     body {
       margin: 0;
       font-family: Arial, sans-serif;
