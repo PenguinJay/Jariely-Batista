@@ -9,8 +9,8 @@
       text-align: center;
     }
     :root {
-      --background-color: #f9f9f9;
-      --header-background: #003366;
+      --background-color: #fefee5;
+      --header-background: #ffb9ee;
       --header-text-color: #ffffff;
       --section-background: #ffffff;
       --accent-color: #00b3b3;
@@ -51,12 +51,12 @@
     }
 
     .section {
-  padding: 2rem;
-  max-width: 800px;
-  margin: auto;
-  background-color: var(--section-background);
-  border-radius: 8px;
-  text-align: center;
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+      background-color: var(--section-background);
+      border-radius: 8px;
+      text-align: center;
     }
 
     .skills, .portfolio {
