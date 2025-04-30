@@ -1,10 +1,12 @@
 :root {
-    --background-color: white;
-    --header-background: pink;
-    --header-text-color: #black;
-    --section-background: white;
-    --footer-background: white;
-    --footer-text-color: #black;
+   --background-color: #fff8f9;       /* Soft rose-tinted white */
+  --header-background: #a83f5a;      /* Deep rose (strong and stylish) */
+  --header-text-color: #ffffff;      /* White text on rose */
+  --section-background: #ffffff;     /* White sections for clarity */
+  --accent-color: #e7a1b0;           /* Soft pink accent (buttons, highlights) */
+  --text-color: #2c2c2c;             /* Dark gray for readable text */
+  --footer-background: #a83f5a;      /* Match header for cohesion */
+  --footer-text-color: #ffffff;      /* White for footer text */
 }
 
 body {
