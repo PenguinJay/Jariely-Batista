@@ -9,13 +9,15 @@
       text-align: center;
     }
     :root {
-      --background-color: #fefee5;
-      --header-background: #ffb9ee;
-      --header-text-color: #ffffff;
-      --section-background: #ffffff;
-      --text-color: #222222;
-      --footer-text-color: #ffffff;
-    }
+  --background-color: #fefee5;       /* Creamy background */
+  --header-background: #ffb9ee;      /* Pastel pink */
+  --header-text-color: #ffffff;
+  --section-background: #ffffff;
+  --accent-color: #ffc7de;           /* Soft pink accents */
+  --text-color: #222222;
+  --footer-background: #ffb9ee;      /* Match header */
+  --footer-text-color: #ffffff;
+}
 
     body {
       margin: 0;
