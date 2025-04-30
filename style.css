@@ -1,4 +1,7 @@
 <style>
+h1, h2, h3 {
+  text-align: center;
+}
   :root {
     --background-color: #f9f9f9;
     --header-background: #003366;
