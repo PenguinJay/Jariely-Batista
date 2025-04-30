@@ -51,12 +51,12 @@
     }
 
     .section {
-      justify-content: center;
-      padding: 2rem;
-      max-width: 800px;
-      margin: auto;
-      background-color: var(--section-background);
-      border-radius: 8px;
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  background-color: var(--section-background);
+  border-radius: 8px;
+  text-align: center;
     }
 
     .skills, .portfolio {
