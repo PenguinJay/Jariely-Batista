@@ -8,17 +8,16 @@
     h1, h2, h3 {
       text-align: center;
     }
- :root {
-  --background-color: #f9fafb;         /* Soft modern gray-white */
-  --header-background: #1f2937;        /* Charcoal Navy */
-  --header-text-color: #ffffff;
-  --section-background: #ffffff;
-  --accent-color: #fbb6ce;             /* Subtle Tech Rose */
-  --text-color: #111827;               /* Dark Slate Gray */
-  --footer-background: #1f2937;        /* Match header */
+:root {
+  --background-color: #000000;        /* True black */
+  --header-background: #000000;       /* Match page background */
+  --header-text-color: #ffffff;       /* White nav links */
+  --section-background: #000000;      /* Keep sections black */
+  --accent-color: #ff69b4;            /* Hot pink for name/highlights */
+  --text-color: #ffffff;              /* All text white */
+  --footer-background: #000000;       /* Match background */
   --footer-text-color: #ffffff;
 }
-
     body {
       margin: 0;
       font-family: Arial, sans-serif;
