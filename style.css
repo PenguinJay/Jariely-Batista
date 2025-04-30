@@ -8,16 +8,17 @@
     h1, h2, h3 {
       text-align: center;
     }
-    :root {
-  --background-color: #ffffff;         /* White */
-  --header-background: #f48fb1;        /* Rose Pink */
-  --header-text-color: #ffffff;
+   :root {
+  --background-color: #faf9f6;         /* Ivory White */
+  --header-background: #f3c6d3;        /* Blush Pink */
+  --header-text-color: #2e3a59;        /* Slate */
   --section-background: #ffffff;
-  --accent-color: #212121;             /* Charcoal Black */
-  --text-color: #333333;
-  --footer-background: #212121;        /* Match accent */
+  --accent-color: #f18f9f;             /* Coral Pink */
+  --text-color: #1a1a1a;
+  --footer-background: #2e3a59;        /* Slate Navy */
   --footer-text-color: #ffffff;
 }
+
 
 
     body {
