@@ -9,15 +9,16 @@
       text-align: center;
     }
     :root {
-  --background-color: #fffff0;       /* Creamy background */
-  --header-background: #ffb9ee;      /* Pastel pink */
+  --background-color: #ffffff;         /* White */
+  --header-background: #f48fb1;        /* Rose Pink */
   --header-text-color: #ffffff;
   --section-background: #ffffff;
-  --accent-color: #ffc7de;           /* Soft pink accents */
-  --text-color: #222222;
-  --footer-background: #ffb9ee;      /* Match header */
+  --accent-color: #212121;             /* Charcoal Black */
+  --text-color: #333333;
+  --footer-background: #212121;        /* Match accent */
   --footer-text-color: #ffffff;
 }
+
 
     body {
       margin: 0;
