@@ -13,8 +13,8 @@
   --header-background: #000000;       /* Match page background */
   --header-text-color: #ffffff;       /* White nav links */
   --section-background: #000000;      /* Keep sections black */
-  --accent-color: #ff69b4;            /* Hot pink for name/highlights */
-  --text-color: #ffffff;              /* All text white */
+  --accent-color: #6b676a;            /* Gray for name/highlights */
+  --text-color: #efe9ed;              /* dark white for text */
   --footer-background: #000000;       /* Match background */
   --footer-text-color: #ffffff;
 }
@@ -110,53 +110,3 @@
     }
   </style>
 </head>
-<body>
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#portfolio">Portfolio</a>
-    <a href="#resume">Resume</a>
-    <a href="#contact">Contact Me</a>
-  </nav>
-
-  <section class="intro" id="home">
-    <h1>Hello<br>I'm [Your Name]</h1>
-    <h2>Software Engineer</h2>
-    <p>If you're on the hunt for IT, you've landed in the right place. I am a passionate software developer weaving intricate code and crafting captivating digital experiences. Explore my portfolio, where IT meets innovation, creativity, and precision.</p>
-    <button>Hire Me</button>
-  </section>
-
-  <section class="section" id="about">
-    <h2>What I Do</h2>
-    <div class="skills">
-      <div><h3>Backend Development</h3><p>Experienced in OOD, TDD, Ruby, Rails, Python, Django, and RESTful API development.</p></div>
-      <div><h3>Frontend Development</h3><p>Proficient in React, JavaScript, HTML5, CSS3, Tailwind CSS, and Responsive Design.</p></div>
-      <div><h3>Database Management</h3><p>Skilled in PostgreSQL, SQL query optimization, data modeling, NoSQL databases (such as MongoDB), and working with ORMs.</p></div>
-    </div>
-  </section>
-
-  <section class="section" id="portfolio">
-    <h2>My Portfolio</h2>
-    <div class="portfolio">
-      <div><h3>StreetEatz</h3><button>View Project</button></div>
-      <div><h3>Turing Draft Madness</h3><button>View Project</button></div>
-      <div><h3>Fantasy Draft App 2.0</h3><button>View Project</button></div>
-      <div><h3>Portfolio Website</h3><button>View Project</button></div>
-      <div><h3>Portfolio 5 Project</h3><button>Coming Soon</button></div>
-      <div><h3>Portfolio 6 Project</h3><button>Coming Soon</button></div>
-    </div>
-    <p style="text-align:center;"><a href="#">See More</a></p>
-  </section>
-
-  <section class="section" id="resume">
-    <h2>My Resume</h2>
-    <p>[Insert your resume info or link here]</p>
-  </section>
-
-  <section class="form-section" id="contact">
-    <h2>Contact Me</h2>
-    <p>Please fill out the form below to discuss any work opportunities</p>
-    <form>
-      <input type="text" placeholder="Your Name">
-      <input type="email" placeholder="Your Email">
-      <textarea pl
