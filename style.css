@@ -113,6 +113,22 @@
       padding: 1rem;
       background-color: var(--footer-background);
       color: var(--footer-text-color);
+      nav {
+  background-color: var(--header-background);
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.nav-box {
+  background-color: var(--accent-color);
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1.2rem;
+  border-radius: 10px;
+  display: inline-block;
+}
     }
   </style>
 </head>
