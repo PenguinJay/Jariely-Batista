@@ -98,10 +98,6 @@ button {
   color: white;
   text-align: center;
 }
-.form-section {
-  background-color: var(--accent-color) !important;
-}
-
 
 footer {
   text-align: center;
