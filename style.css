@@ -1,11 +1,11 @@
 :root {
-  --background-color: #343434;
-  --header-background: #343434;
+  --background-color: #2b2b2b;
+  --header-background: #2b2b2b;
   --header-text-color: #ffffff;
-  --section-background: #343434;
+  --section-background: #2b2b2b;
   --accent-color: #484848;
   --text-color: #ececec;
-  --footer-background: #343434;
+  --footer-background: #2b2b2b;
   --footer-text-color: #ffffff;
   --overlay-bg: rgba(0, 0, 0, 0.7); 
 }
