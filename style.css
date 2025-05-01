@@ -89,3 +89,12 @@ footer {
   background-color: var(--footer-background);
   color: var(--footer-text-color);
 }
+.form-section {
+  background-color: var(--accent-color);
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+  color: white;
+  text-align: center;
+}
