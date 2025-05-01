@@ -128,12 +128,12 @@ form textarea {
   flex-wrap: wrap;
 }
 
-.intro-image img {
-  max-width: 300px;
-  border-radius: 10px;
-}
-
 .intro-text {
   flex: 1;
   text-align: left;
+}
+
+.intro-image img {
+  max-width: 300px;
+  border-radius: 10px;
 }
