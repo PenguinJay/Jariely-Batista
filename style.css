@@ -82,13 +82,6 @@ button {
   cursor: pointer;
   border-radius: 5px;
 }
-
-footer {
-  text-align: center;
-  padding: 1rem;
-  background-color: var(--footer-background);
-  color: var(--footer-text-color);
-}
 .form-section {
   background-color: var(--accent-color);
   padding: 2rem;
@@ -97,4 +90,11 @@ footer {
   margin: auto;
   color: white;
   text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--footer-background);
+  color: var(--footer-text-color);
 }
