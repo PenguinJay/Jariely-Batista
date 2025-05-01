@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jariely Batista | Portfolio</title>
   <style>
-    h1, h2, h3 {
-      text-align: center;
-    }
-:root {
-  --background-color: #000000;        /* True black */
+    :root {
+     --background-color: #000000;        /* True black */
   --header-background: #000000;       /* Match page background */
   --header-text-color: #ffffff;       /* White nav links */
   --section-background: #000000;      /* Keep sections black */
@@ -17,8 +14,9 @@
   --text-color: #efe9ed;              /* dark white for text */
   --footer-background: #000000;       /* Match background */
   --footer-text-color: #ffffff;
-}
-body {
+    }
+
+    body {
       margin: 0;
       font-family: Arial, sans-serif;
       background-color: var(--background-color);
@@ -29,8 +27,9 @@ body {
       background-color: var(--header-background);
       display: flex;
       justify-content: center;
-      gap: 2rem;
+      gap: 1rem;
       padding: 1rem;
+      flex-wrap: wrap;
     }
 
     nav a {
@@ -41,44 +40,42 @@ body {
       border: 2px solid transparent;
     }
 
-    .nav-link {
-      color: var(--header-text-color);
-    }
-
-    .home {
+    nav a[href="#home"] {
       background-color: #ffe4e1;
       color: #000;
       border-color: #ff7f7f;
     }
 
-    .about {
+    nav a[href="#about"] {
       background-color: #e0f7fa;
       color: #000;
       border-color: #4dd0e1;
     }
 
-    .resume {
+    nav a[href="#portfolio"] {
+      background-color: #f3f9e3;
+      color: #000;
+      border-color: #cddc39;
+    }
+
+    nav a[href="#resume"] {
       background-color: #f3e5f5;
       color: #000;
       border-color: #ba68c8;
     }
 
-    .intro {
-      text-align: center;
-      padding: 2rem;
-      background-color: var(--section-background);
+    nav a[href="#contact"] {
+      background-color: #e0f2f1;
+      color: #000;
+      border-color: #4db6ac;
     }
 
-    .intro h1 {
-      margin-bottom: 0.5rem;
-    }
-
-    .section {
+    .intro, .section, .form-section {
       padding: 2rem;
       max-width: 800px;
       margin: auto;
       background-color: var(--section-background);
-      border-radius: 8px;
+      border-radius: 10px;
       text-align: center;
     }
 
@@ -94,26 +91,11 @@ body {
       color: white;
     }
 
-    .form-section {
-      background-color: var(--accent-color);
-      padding: 2rem;
-      border-radius: 10px;
-      max-width: 600px;
-      margin: auto;
-      color: white;
-      text-align: center;
-    }
-
-    .form-section form {
-      display: grid;
-      gap: 1rem;
-      text-align: center;
-    }
-
     input, textarea {
       padding: 0.5rem;
       border: 1px solid #ccc;
       border-radius: 5px;
+      width: 100%;
     }
 
     button {
@@ -135,11 +117,14 @@ body {
   </style>
 </head>
 <body>
-
   <nav>
-    <a href="#" class="nav-link home">Home</a>
-    <a href="#" class="nav-link about">About</a>
-    <a href="#" class="nav-link resume">Resume</a>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
   </nav>
 
+  <!-- The rest of your sections go here... -->
 </body>
+</html>
