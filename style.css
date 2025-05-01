@@ -197,12 +197,10 @@ footer {
   flex: 1;
   text-align: left;
 }
-input[type="text"],
-input[type="email"],
-textarea {
-  background-color: #ececec;
+input::placeholder,
+textarea::placeholder {
+  color: #ececec;
 }
-
 
 .intro-image img {
   max-width: 300px;
