@@ -5,114 +5,91 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Jariely Batista | Portfolio</title>
   <style>
-flex;
-  justify-content: center;
-  gap: 1rem;
-  padding: 1rem;
-  flex-wrap: wrap;
-}
+    :root {
+      --background-color: #000000;
+      --header-background: #000000;
+      --header-text-color: #ffffff;
+      --section-background: #000000;
+      --accent-color: #6b676a;
+      --text-color: #efe9ed;
+      --footer-background: #000000;
+      --footer-text-color: #ffffff;
+    }
 
-:root {
-  --background-color: #000000;
-  --header-background: #000000;
-  --header-text-color: #ffffff;
-  --section-background: #000000;
-  --accent-color: #6b676a;
-  --text-color: #efe9ed;
-  --footer-background: #000000;
-  --footer-text-color: #ffffff;
-}
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: var(--background-color);
+      color: var(--text-color);
+    }
 
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: var(--background-color);
-  color: var(--text-color);
-}
+    nav {
+      background-color: var(--header-background);
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      padding: 1rem;
+      flex-wrap: wrap;
+    }
 
-nav {
-  background-color: var(--header-background);
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  padding: 1rem;
-  flex-wrap: wrap;
-}
+    nav a {
+      text-decoration: none;
+      font-weight: bold;
+      background-color: var(--accent-color);
+      color: white;
+      padding: 0.6rem 1.2rem;
+      border-radius: 10px;
+      transition: background-color 0.3s;
+    }
 
-nav a {
-  text-decoration: none;
-  font-weight: bold;
-  background-color: var(--accent-color);
-  color: white;
-  padding: 0.6rem 1.2rem;
-  border-radius: 10px;
-  transition: background-color 0.3s;
-}
+    nav a:hover {
+      background-color: #5b585b;
+    }
 
-nav a:hover {
-  background-color: #5b585b;
-}
+    .intro, .section, .form-section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+      background-color: var(--section-background);
+      border-radius: 10px;
+      text-align: center;
+    }
 
-.intro,
-.section,
-.form-section {
-  padding: 2rem;
-  max-width: 800px;
-  margin: auto;
-  background-color: var(--section-background);
-  border-radius: 10px;
-  text-align: center;
-}
+    .skills, .portfolio {
+      display: grid;
+      gap: 1rem;
+    }
 
-.skills,
-.portfolio {
-  display: grid;
-  gap: 1rem;
-}
+    .skills div, .portfolio div {
+      background-color: var(--accent-color);
+      padding: 1rem;
+      border-radius: 10px;
+      color: white;
+    }
 
-.skills div,
-.portfolio div {
-  background-color: var(--accent-color);
-  padding: 1rem;
-  border-radius: 10px;
-  color: white;
-}
+    input, textarea {
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 100%;
+    }
 
-input,
-textarea {
-  padding: 0.5rem;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  width: 100%;
-}
+    button {
+      background-color: var(--header-background);
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 5px;
+    }
 
-button {
-  background-color: var(--header-background);
-  color: white;
-  border: none;
-  padding: 0.5rem 1rem;
-  font-weight: bold;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-.form-section {
-  background-color: var(--accent-color);
-  padding: 2rem;
-  border-radius: 10px;
-  max-width: 600px;
-  margin: auto;
-  color: white;
-  text-align: center;
-}
-
-footer {
-  text-align: center;
-  padding: 1rem;
-  background-color: var(--footer-background);
-  color: var(--footer-text-color);
-}
-
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: var(--footer-background);
+      color: var(--footer-text-color);
+    }
   </style>
 </head>
 <body>
