@@ -1,11 +1,11 @@
 :root {
-  --background-color: #f4f4f4;
-  --header-background: #ffffff;
+  --background-color: #4c4c4c;
+  --header-background: #4c4c4c;
   --header-text-color: #ffffff;
-  --section-background: #ffffff;
-  --accent-color: #706d72;
-  --text-color: #333333;
-  --footer-background: #ffffff;
+  --section-background: #4c4c4c;
+  --accent-color: #6f6f6f;
+  --text-color: #ececec;
+  --footer-background: #4c4c4c;
   --footer-text-color: #ffffff;
 }
 
@@ -55,7 +55,7 @@ nav a:hover {
   border-radius: 10px;
   max-width: 600px;
   margin: auto;
-  color: white;
+  color: var(--text-color);
   text-align: center;
 }
 
@@ -70,7 +70,7 @@ nav a:hover {
   background-color: var(--accent-color);
   padding: 1rem;
   border-radius: 10px;
-  color: white;
+  color: var(--text-color);
 }
 
 form input,
@@ -83,6 +83,8 @@ form textarea {
   font-size: 1rem;
   box-sizing: border-box;
   display: block;
+  background-color: #6f6f6f;
+  color: var(--text-color);
 }
 
 form textarea {
