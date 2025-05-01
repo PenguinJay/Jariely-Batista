@@ -1,12 +1,12 @@
 :root {
   --background-color: #4c4c4c;
   --header-background: #4c4c4c;
-  --header-text-color: #ffffff;
+  --header-text-color: #ececec;
   --section-background: #4c4c4c;
   --accent-color: #6f6f6f;
   --text-color: #ececec;
   --footer-background: #4c4c4c;
-  --footer-text-color: #ffffff;
+  --footer-text-color: #ececec;
 }
 
 body {
