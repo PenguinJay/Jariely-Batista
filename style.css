@@ -88,7 +88,7 @@ nav a:hover {
 }
 
 .portfolio-item img {
-  width: 75%;
+  width: 100%;
   aspect-ratio: 1 / 1; /* Makes the image square */
   object-fit: cover;   /* Ensures the image fills the square nicely */
   display: block;
