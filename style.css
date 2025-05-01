@@ -118,12 +118,12 @@
 </head>
 <body>
   <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#portfolio">Portfolio</a>
-    <a href="#resume">Resume</a>
-    <a href="#contact">Contact</a>
-  </nav>
+  <span class="nav-box">Home</span>
+  <span class="nav-box">About</span>
+  <span class="nav-box">Portfolio</span>
+  <span class="nav-box">Resume</span>
+  <span class="nav-box">Contact</span>
+</nav>
 
   <!-- The rest of your sections go here... -->
 </body>
