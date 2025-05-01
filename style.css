@@ -5,6 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Jariely Batista | Portfolio</title>
   <style>
+flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+
 :root {
   --background-color: #000000;
   --header-background: #000000;
@@ -47,7 +54,8 @@ nav a:hover {
 }
 
 .intro,
-.section {
+.section,
+.form-section {
   padding: 2rem;
   max-width: 800px;
   margin: auto;
