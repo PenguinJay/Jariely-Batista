@@ -46,14 +46,24 @@
       background-color: #5b585b;
     }
 
-    .intro, .section, .form-section {
-      padding: 2rem;
-      max-width: 800px;
-      margin: auto;
-      background-color: var(--section-background);
-      border-radius: 10px;
-      text-align: center;
-    }
+    .intro, .section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  background-color: var(--section-background);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.form-section {
+  background-color: var(--accent-color);
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+  color: white;
+  text-align: center;
+}
 
     .skills, .portfolio {
       display: grid;
