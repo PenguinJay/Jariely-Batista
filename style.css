@@ -1,8 +1,11 @@
 :root {
-  --background-color: #3e3c3f;
+  --background-color: #f4f4f4;
+  --header-background: #ffffff;
   --header-text-color: #ffffff;
+  --section-background: #ffffff;
   --accent-color: #706d72;
-  --text-color: #efe9ed;
+  --text-color: #333333;
+  --footer-background: #ffffff;
   --footer-text-color: #ffffff;
 }
 
