@@ -73,15 +73,25 @@ nav a:hover {
   color: white;
 }
 
-input,
-textarea {
-  padding: 0.5rem;
+form input,
+form textarea {
+  padding: 0.75rem;
   border: 1px solid #ccc;
   border-radius: 5px;
   width: 100%;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  box-sizing: border-box;
+  display: block;
 }
 
-button {
+form textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+form button {
+  margin-top: 1rem;
   background-color: var(--header-background);
   color: white;
   border: none;
@@ -97,21 +107,7 @@ footer {
   background-color: var(--footer-background);
   color: var(--footer-text-color);
 }
-form input,
-form textarea {
-  padding: 0.75rem;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  width: 100%;
-  margin-bottom: 1rem; /* Adds space between inputs */
-  font-size: 1rem;
-  box-sizing: border-box;
-}
 
-form textarea {
-  min-height: 150px; /* Makes the message box taller */
-  resize: vertical;  /* Allows manual resizing if needed */
-}
 .intro {
   background-color: var(--section-background);
   border-radius: 10px;
