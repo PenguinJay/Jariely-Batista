@@ -47,8 +47,7 @@ nav a:hover {
 }
 
 .intro,
-.section,
-.form-section {
+.section {
   padding: 2rem;
   max-width: 800px;
   margin: auto;
