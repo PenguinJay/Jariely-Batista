@@ -1,20 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Jariely Batista | Portfolio</title>
-  <style>
-    :root {
-     --background-color: #000000;        /* True black */
-  --header-background: #000000;       /* Match page background */
-  --header-text-color: #ffffff;       /* White nav links */
-  --section-background: #000000;      /* Keep sections black */
-  --accent-color: #6b676a;            /* Gray for name/highlights */
-  --text-color: #efe9ed;              /* dark white for text */
-  --footer-background: #000000;       /* Match background */
+:root {
+  --background-color: #000000;
+  --header-background: #000000;
+  --header-text-color: #ffffff;
+  --section-background: #000000;
+  --accent-color: #6b676a;
+  --text-color: #efe9ed;
+  --footer-background: #000000;
   --footer-text-color: #ffffff;
-    }
+}
 
 body {
   margin: 0;
@@ -90,4 +83,3 @@ footer {
   background-color: var(--footer-background);
   color: var(--footer-text-color);
 }
-    
