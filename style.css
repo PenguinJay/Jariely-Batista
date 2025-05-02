@@ -25,15 +25,16 @@ nav {
   padding: 1rem;
   flex-wrap: wrap;
 }
-
-nav a {
-  text-decoration: none;
-  font-weight: bold;
-  background-color: var(--accent-color);
-  color: white;
-  padding: 0.6rem 1.2rem;
-  border-radius: 10px;
-  transition: background-color 0.3s;
+nav {
+  position: sticky;
+  top: 0;
+  background-color: var(--header-background);
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  flex-wrap: wrap;
+  z-index: 1000;
 }
 
 nav a:hover {
