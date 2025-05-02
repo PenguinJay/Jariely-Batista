@@ -40,6 +40,7 @@ nav {
 nav a {
   text-decoration: none;
   font-weight: bold;
+  font-size: 20px; 
   background-color: transparent;
   color: var(--header-text-color);
   padding: 0.6rem 1.2rem;
