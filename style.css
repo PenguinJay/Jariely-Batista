@@ -207,6 +207,23 @@ textarea::placeholder {
   color: #ececec;
 }
 
+.resume-download {
+  color: var(--header-text-color);
+  background-color: transparent;
+  padding: 0.6rem 1.2rem;
+  border-radius: 10px;
+  border: 2px solid var(--header-text-color);
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.resume-download:hover {
+  background-color: #5b5b5b;
+  color: white;
+}
+
+
 .intro-image img {
   max-width: 300px;
   border-radius: 10px;
