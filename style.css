@@ -208,7 +208,7 @@ textarea::placeholder {
 }
 
 .resume-download {
-  color: var(--header-text-color);
+  color: var(--header-text-color);        
   background-color: transparent;
   padding: 0.6rem 1.2rem;
   border-radius: 10px;
@@ -222,6 +222,7 @@ textarea::placeholder {
   background-color: #5b5b5b;
   color: white;
 }
+
 
 
 .intro-image img {
