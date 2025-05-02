@@ -16,6 +16,7 @@ h1 {
 
 p {
   font-size: 24px;
+} /* <-- this was missing */
 
 body {
   margin: 0;
@@ -35,11 +36,12 @@ nav {
   flex-wrap: wrap;
   z-index: 1000;
 }
+
 nav a {
   text-decoration: none;
   font-weight: bold;
   background-color: transparent;
-  color: var(--header-text-color); /* now #ececec */
+  color: var(--header-text-color);
   padding: 0.6rem 1.2rem;
   border-radius: 10px;
   transition: background-color 0.3s;
@@ -100,8 +102,8 @@ nav a:hover {
 
 .portfolio-item img {
   width: 100%;
-  aspect-ratio: 1 / 1; /* Makes the image square */
-  object-fit: cover;   /* Ensures the image fills the square nicely */
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
   display: block;
   transition: transform 0.3s ease;
 }
@@ -209,6 +211,7 @@ footer {
   flex: 1;
   text-align: left;
 }
+
 input::placeholder,
 textarea::placeholder {
   color: #ececec;
@@ -229,8 +232,6 @@ textarea::placeholder {
   background-color: #5b5b5b;
   color: white;
 }
-
-
 
 .intro-image img {
   max-width: 300px;
