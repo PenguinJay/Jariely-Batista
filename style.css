@@ -238,3 +238,51 @@ textarea::placeholder {
   max-width: 300px;
   border-radius: 10px;
 }
+/* Make text and layout more mobile-friendly */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 8vw;
+  }
+
+  p {
+    font-size: 4.5vw;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  .intro-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .intro-text {
+    text-align: center;
+  }
+
+  .intro-image img {
+    max-width: 90%;
+    margin: auto;
+  }
+
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+  }
+
+  iframe {
+    width: 100% !important;
+    height: 400px !important;
+  }
+
+  .form-section {
+    padding: 1rem;
+  }
+
+  .resume-download {
+    display: inline-block;
+    margin-top: 1rem;
+  }
+}
