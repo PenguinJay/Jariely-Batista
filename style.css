@@ -286,3 +286,8 @@ textarea::placeholder {
     margin-top: 1rem;
   }
 }
+.certificate-button {
+  padding: 0.4rem 0.9rem;
+  font-size: 0.9rem;
+  border-radius: 8px;
+}
