@@ -7,22 +7,22 @@
   --text-color: #ececec;
   --footer-background: #2b2b2b;
   --footer-text-color: #ffffff;
-  --overlay-bg: rgba(0, 0, 0, 0.7); 
+  --overlay-bg: rgba(0, 0, 0, 0.7);
 }
-
-h1 {
-  font-size: 45px; 
-}
-
-p {
-  font-size: 20px;
-} /* <-- this was missing */
 
 body {
   margin: 0;
   font-family: Playfair;
   background-color: var(--background-color);
   color: var(--text-color);
+}
+
+h1 {
+  font-size: 45px;
+}
+
+p {
+  font-size: 20px;
 }
 
 nav {
@@ -40,8 +40,7 @@ nav {
 nav a {
   text-decoration: none;
   font-weight: bold;
-  font-size: 20px; 
-  background-color: transparent;
+  font-size: 20px;
   color: var(--header-text-color);
   padding: 0.6rem 1.2rem;
   border-radius: 10px;
@@ -60,6 +59,31 @@ nav a:hover {
   background-color: var(--section-background);
   border-radius: 10px;
   text-align: center;
+}
+
+.intro {
+  max-width: 1000px;
+}
+
+.intro-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.intro-text {
+  flex: 1;
+  text-align: left;
+}
+
+.intro-image img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
 
 .form-section {
@@ -164,7 +188,6 @@ form textarea {
   margin-bottom: 1rem;
   font-size: 1rem;
   box-sizing: border-box;
-  display: block;
   background-color: #6f6f6f;
   color: var(--text-color);
 }
@@ -192,34 +215,13 @@ footer {
   color: var(--footer-text-color);
 }
 
-.intro {
-  background-color: var(--section-background);
-  border-radius: 10px;
-  padding: 2rem;
-  max-width: 1000px;
-  margin: auto;
-}
-
-.intro-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
-  flex-wrap: wrap;
-}
-
-.intro-text {
-  flex: 1;
-  text-align: left;
-}
-
 input::placeholder,
 textarea::placeholder {
   color: #ececec;
 }
 
 .resume-download {
-  color: var(--header-text-color);        
+  color: var(--header-text-color);
   background-color: transparent;
   padding: 0.6rem 1.2rem;
   border-radius: 10px;
@@ -234,11 +236,19 @@ textarea::placeholder {
   color: white;
 }
 
-.intro-image img {
-  max-width: 300px;
-  border-radius: 10px;
+img,
+iframe {
+  max-width: 100%;
+  height: auto;
 }
-/* Make text and layout more mobile-friendly */
+
+.certificate-button {
+  padding: 0.4rem 0.9rem;
+  font-size: 0.9rem;
+  border-radius: 8px;
+}
+
+/* Mobile styles */
 @media (max-width: 768px) {
   h1 {
     font-size: 8vw;
@@ -256,6 +266,7 @@ textarea::placeholder {
 
   .intro-container {
     flex-direction: column;
+    align-items: center;
     text-align: center;
   }
 
@@ -272,13 +283,17 @@ textarea::placeholder {
     grid-template-columns: 1fr;
   }
 
-  iframe {
-    width: 100% !important;
-    height: 400px !important;
-  }
-
   .form-section {
     padding: 1rem;
+  }
+
+  .form-section > div {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .form-section img {
+    height: 100px !important;
   }
 
   .resume-download {
@@ -286,8 +301,13 @@ textarea::placeholder {
     margin-top: 1rem;
   }
 }
-.certificate-button {
-  padding: 0.4rem 0.9rem;
-  font-size: 0.9rem;
-  border-radius: 8px;
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 9vw;
+  }
+
+  p {
+    font-size: 5vw;
+  }
 }
